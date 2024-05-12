@@ -17,21 +17,21 @@ export const fetchSearchMovies = async query => {
 
 export const fetchDetailsMovies = async movieID => {
   const response = await axios.get(
-    `movie/${movieId}?api_key=${apiKey}&language=en-US`
+    `movie/${movieID}?api_key=${apiKey}&language=en-US`
   );
   return response.data;
 };
 
 export const fetchCastMovies = async movieID => {
   const response = await axios.get(
-    `movie/${movieId}/credits?api_key=${apiKey}&language=en-US`
+    `movie/${movieID}/credits?api_key=${apiKey}&language=en-US`
   );
   return response.data;
 };
 
 export const fetchReviewsMovies = async movieID => {
   const response = await axios.get(
-    `movie/${movieId}/reviews?api_key=${apiKey}&language=en-US&page=1`
+    `movie/${movieID}/reviews?api_key=${apiKey}&language=en-US&page=1`
   );
   return response.data;
 };
