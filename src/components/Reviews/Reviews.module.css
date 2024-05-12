@@ -1,0 +1,15 @@
+.reviews_list {
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.author {
+  font-size: 20px;
+  color: fuchsia;
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 10px;
+}

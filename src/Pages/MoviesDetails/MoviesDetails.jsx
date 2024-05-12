@@ -37,7 +37,7 @@ const MoviesDetails = () => {
           {title && <h2 className={css.movie_header}>{title}</h2>}
           <p className={css.paragraph}>{release_date}</p>
 
-          <p className={css.paragraph}> User Score: {vote_average}%</p>
+          <p className={css.paragraph}> Score: {vote_average}%</p>
           <h2 className={css.movie_header}>Overview</h2>
           <p className={css.paragraph}>{overview}</p>
           <h2 className={css.movie_header}>Genres</h2>
